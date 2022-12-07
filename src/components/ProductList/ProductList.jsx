@@ -15,7 +15,7 @@ const products = [
     {id: '8', title: 'Рубашка'}, price: 2000, description: 'Белого цвета, хлопок'},
 ]
 
-const getTotalPrice = (items) => {
+const getTotalPrice = (items = []) => {
     return items.reduce((acc, item) => {
         return acc += item.price
     }, 0)
