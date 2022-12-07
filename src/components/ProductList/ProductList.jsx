@@ -5,14 +5,14 @@ import {useTelegram} from "../Hooks/useTelegram";
 
 
 const products = [
-    {id: '1', title: 'Джинсы'}, price: 5000, description: 'Синего цвета, прямые'},
-    {id: '2', title: 'Куртка'}, price: 12000, description: 'Зеленого цвета, теплая'},
-    {id: '3', title: 'Джинсы 2'}, price: 5000, description: 'Синего цвета, прямые'},
-    {id: '4', title: 'Куртка 2'}, price: 13000, description: 'Синего цвета, теплая'},
-    {id: '5', title: 'Джинсы 3'}, price: 6000, description: 'Черного цвета, прямые'},
-    {id: '6', title: 'Свитер'}, price: 3000, description: 'Красного цвета, новогодний'},
-    {id: '7', title: 'Брюки'}, price: 4000, description: 'Серого цвета, в клеточку'},
-    {id: '8', title: 'Рубашка'}, price: 2000, description: 'Белого цвета, хлопок'},
+    {id: '1', title: 'Джинсы', price: 5000, description: 'Синего цвета, прямые'},
+    {id: '2', title: 'Куртка', price: 12000, description: 'Зеленого цвета, теплая'},
+    {id: '3', title: 'Джинсы 2', price: 5000, description: 'Синего цвета, прямые'},
+    {id: '4', title: 'Куртка 2', price: 13000, description: 'Синего цвета, теплая'},
+    {id: '5', title: 'Джинсы 3', price: 6000, description: 'Черного цвета, прямые'},
+    {id: '6', title: 'Свитер', price: 3000, description: 'Красного цвета, новогодний'},
+    {id: '7', title: 'Брюки', price: 4000, description: 'Серого цвета, в клеточку'},
+    {id: '8', title: 'Рубашка', price: 2000, description: 'Белого цвета, хлопок'},
 ]
 
 const getTotalPrice = (items = []) => {
