@@ -47,7 +47,6 @@ const ProductList = () => {
     }
     return (
         <div className={'list'}>
-            Проверка
             {products.map(item => (
                 <ProductItem
                     product={item}
