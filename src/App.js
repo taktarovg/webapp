@@ -1,6 +1,6 @@
 import './App.css';
 import {useEffect} from "react";
-import {useTelegram} from "./components/Hooks/useTelegram";
+import {useTelegram} from "./Hooks/useTelegram";
 import Header from "./components/Header/header";
 import {Route, Routes}  from "react-router-dom";
 import ProductList from "./components/ProductList/ProductList";
@@ -20,9 +20,8 @@ function App() {
                 <Route index element={<ProductList />}/>
                 <Route path={'form'} element={<Form />}/>
             </Routes>
-
         </div>
-  );
+    );
 }
 
 export default App;

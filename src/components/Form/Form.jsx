@@ -1,6 +1,6 @@
 import React, {useCallback, useEffect, useState} from 'react';
 import './Form.css'
-import {useTelegram} from "../Hooks/useTelegram";
+import {useTelegram} from "../../Hooks/useTelegram";
 
 const Form = () => {
     const [country, setCountry] = useState('');
@@ -36,7 +36,7 @@ const Form = () => {
         }  else {
             tg.MainButton.show();
         }
-        }, [country, street])
+    }, [country, street])
 
     const onChangeCountry = (e) => {
         setCountry(e.target.value)
